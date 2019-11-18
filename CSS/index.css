@@ -1,0 +1,135 @@
+@-ms-viewport {
+  width: device-width;
+}
+ul {
+  position: fixed;
+  list-style-type: none;
+  margin: 0;
+  padding: 2px;
+  width: 99%;
+  overflow: hidden;
+  background-color:rgba(48, 26, 26, 0.733);
+  border-radius: 10px 10px 10px 10px;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+.Camera {
+    width: 400px;
+    background-color: slategrey;
+    border: 10px solid #ddd;
+    margin: 30px auto 0px;
+}
+body.b1{
+  background-image: url("../Images/backgroundpic.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+button.b2{
+  width: 50px;
+  height: 20px;
+}
+.comme{
+  width: 15%;
+  height: 4%;
+  background-color: rgba(139, 132, 132, 0.404);;
+  color: whitesmoke;
+  border-radius: 10px;
+}
+button{
+  border-radius: 8px;
+  color: white;
+  height: 20px;
+  background-color: rgba(66, 61, 61, 0.808);
+}
+a.active{
+  background-color: rgb(20, 18, 17);
+  
+}
+img{
+  border-radius: 10px;
+}
+h3{
+  background-color: rgba(139, 132, 132, 0.404);
+  border-radius: 5px;
+  color: white;
+  width: 20%;
+  height: 30px;
+}
+.round{
+  background-image: url("../Images/camcam.jpg");
+  min-height: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+.booth{
+  border: 20;
+  border-block-color: red;
+  background-color: rgba(71, 58, 58, 0.603);
+  border-radius: 15px;
+  box-shadow: 20px 20px 20px 20px rgba(128, 67, 67, 0.767);
+}
+.butt{
+  border-radius: 8px;
+  color: white;
+  height: 20px;
+  background-color: rgba(66, 61, 61, 0.808);
+}
+#video{
+  border-radius: 10px;
+  border: solid 20px rgba(58, 22, 22, 0.808);
+  background-image: unset;
+}
+#canvas{
+  border-radius: 10px;
+  border: solid 20px rgba(58, 22, 22, 0.808);
+  background-image: unset;
+  box-shadow: tomato;
+}
+.head{
+  color: white;
+}
+.plz{
+  color: white;
+}
+input#fileToUpload{
+  color: white;
+}
+.dir{
+  display: block;
+  text-align: center;
+  text-align: center 20px 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%) 
+}
+.row
+{
+    display:-ms-flexbox;
+    display:flex;
+    -ms-flex-wrap:wrap;
+    flex-wrap:wrap;
+    margin-right:-15px;
+    margin-left:-15px
+}

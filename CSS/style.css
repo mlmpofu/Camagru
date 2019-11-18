@@ -1,0 +1,125 @@
+@-ms-viewport {
+    width: device-width;
+  }
+* {
+    margin: 0px;
+    padding: 0px;
+}
+.header {
+    width: 20%;
+    margin: 50px auto 0px;
+    color: white;
+    box-shadow: 20px 20px 20px 20px rgba(48, 40, 40, 0.767);
+    background: rgba(102, 81, 81, 0.562);
+    text-align: center;
+    border: 1px solid #B0C4DE;
+    border-bottom: none;
+    border-radius: 10px 10px 0px 0px;
+    padding: 20px;
+}
+form {
+    width: 25%;
+    height: 60%;
+    box-shadow: 20px 20px 20px 20px rgba(48, 40, 40, 0.767);
+    margin: 0px auto;
+    padding: 20px;
+    border: 1px solid #B0C4DE;
+    background: rgba(53, 50, 50, 0.603);
+    border-radius: 10px 10px 10px 10px;
+}
+.input-group {
+    margin: 10px 0px 10px 0px;
+}
+.input-group label{
+    display: block;
+    text-align: left;
+    margin: 3px;
+}
+.input-group input {
+    height: 30px;
+    width: 93%;
+    padding: 5px 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+.btn {
+    padding: 10px;
+    font-size: 15px;
+    color: white;
+    background: rgb(22, 21, 21);
+    border-radius: 5px;
+}
+.txt{
+    color: white;
+    font-style: oblique;
+}
+.row{
+    color: white;
+    width: 60%;
+    background-color: rgba(0, 0, 0, 0.616);
+    box-shadow: 20px 20px 20px 20px rgba(31, 29, 29, 0.767);
+    border-radius: 10px;
+}
+h2{
+    font-style: oblique;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.411);
+    color: black;
+    box-shadow: 20px 20px 20px 20px rgba(31, 29, 29, 0.767);
+}
+label{
+    font-style: oblique;
+}
+.pp{
+    font-style: oblique;
+    color: red;
+
+}
+.txt2{
+    color: green;
+}
+.frm1{
+    width: 25%;
+    height: 60%;
+    box-shadow: 20px 20px 20px 20px rgba(48, 40, 40, 0.767);
+    margin: 0px auto;
+    padding: 20px;
+    border: 1px solid #B0C4DE;
+    background: rgba(53, 50, 50, 0.603);
+    border-radius: 10px 10px 10px 10px;
+} 
+.logbut{
+    background-color: rgb(36, 19, 58);
+    font-size: 30px;
+    color: ivory;
+}
+.welcome{
+    background-image: url("../Images/universe.jpg");
+    /* width: 100%;
+    height: 200%; */
+    text-align: center;;
+}
+.hhh{
+    font-style: oblique;
+    color: red;
+    font-family: cursive;
+    font-size: xx-large;
+}
+ul {
+    position: fixed;
+    list-style-type: none;
+    margin: 0;
+    padding: 2px;
+    width: 99%;
+    overflow: hidden;
+    background-color:rgba(48, 26, 26, 0.733);
+    border-radius: 10px 10px 10px 10px;
+  }
+  body.b123{
+    background-image: url("../Images/logpic.jpg"); 
+  }
+  ulli.aa{
+      color: white;
+      font: 20px;
+  }
